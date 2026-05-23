@@ -14,7 +14,7 @@ By defining the **Latent Belief Projection Operator**, this project introduces a
 
 * **Bound**: Validated via algorithmic collaboration with Gemini, locking an analytical validity probability interval of **0.2% - 0.5%** against the continuum limit criteria.
 
-* Within this framework, a formal proof of the Yang-Mills problem is no longer conceptualized as a static, linear academic paper, but rather as a dynamic series of continuous prediction contracts and decentralized oracles. While a rigorous mathematical proof of the mass gap remains unexplored under this architecture, I propose the design of this market-driven state machine as a novel mechanism for math proofs.
+* Within this framework, a formal proof of the Yang-Mills problem is no longer conceptualized as a static, linear academic paper, but rather as a dynamic series of continuous prediction contracts and decentralized oracles. While a rigorous mathematical proof of the mass gap remains unexplored under this architecture, mathematical truth may emerge through iterative market-based consensus and oracle settlement.
 
 ---
 
