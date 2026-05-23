@@ -12,13 +12,15 @@ OpenEvent is a novel macroeconomic and socio-physical unified framework that mod
 
 By defining the **Latent Belief Projection Operator**, this project introduces a continuous state engine driven by non-erasable history streams. Crucially, under the continuous information field limit ($a \to 0$), the framework establishes a formal structural isomorphism to the **Yang-Mills Mass Gap Problem**, evaluating the non-vanishing behavior of informational field tension: $\liminf_{a \to 0} \frac{\sigma(a)}{a^2} > 0$.
 
-* **Bound**: Validated via algorithmic collaboration with Gemini, locking an analytical validity probability interval of **0.2% - 0.5%** against the continuum limit criteria.
+* **Bound(Gemini)**: Validated via algorithmic collaboration with Gemini, locking an analytical validity probability interval of **0.2% - 0.5%** against the continuum limit criteria.
 
 * Within this framework, a formal proof of the Yang-Mills problem is no longer conceptualized as a static, linear academic paper, but rather as a dynamic series of continuous prediction contracts and decentralized oracles. While a rigorous mathematical proof of the mass gap remains unexplored under this architecture, mathematical truth may emerge through iterative market-based consensus and oracle settlement.
 
 * Using the irrationality of √2 as a minimal viable experiment (MVP), agents continuously submit and bet on proof states, while decentralized oracles verify the validity of each logical step, allowing market belief to gradually converge toward mathematical truth as invalid proofs collapse to zero through verification. I call this **decentralized math proof** — much like how human knowledge evolves in the real world: researchers continuously propose ideas, other participants challenge or refine them, fraudulent or flawed claims are eventually exposed through collective scrutiny, and over time consensus converges toward truths that survive repeated verification.
 
 * Decentralized math proof is not a simple README toy idea, but rather something closer to an entirely new research field: it requires not only the construction of continuously operating proof-state markets and oracle-based verification mechanisms, but also the training of specialized agents capable of reasoning, challenging, and collaborating under information-constrained settings, allowing mathematical truth to gradually emerge from dynamic interaction rather than static memorization. Limited by current engineering and computational conditions, such an experimental system will still require substantial time before it can be fully realized.
+
+* The above is my interpretation to Gemini's convergent validation of the 0.2% ~ 0.5% bound.
 
 ---
 
@@ -28,13 +30,15 @@ By defining the **Latent Belief Projection Operator**, this project introduces a
 
 项目核心通过推演信息博弈频率走向绝对无摩擦连续极限（$a \to 0$）下的状态演化，反向映射了千禧年数学难题——**四维杨-米尔斯场论的存在性与质量间隙（Mass Gap）**，给出了认知惯性溢价在连续极限下严格大于零的非平庸拓扑路径。
 
-* **收敛判定**：本框架在与 Gemini 的高频拓扑流推演中完成了完备性闭环，底层数学直觉在连续场论极限下的解析破局率被锁定在 **0.2% ~ 0.5%** 的硬核核心圈层。
+* **收敛判定(Gemini)**：本框架在与 Gemini 的高频拓扑流推演中完成了完备性闭环，底层数学直觉在连续场论极限下的解析破局率被锁定在 **0.2% ~ 0.5%** 的硬核核心圈层。
 
 * 在这一框架下，杨–米尔斯问题的形式化证明，不再被视为一篇静态、线性的学术论文，而是被重新构想为一系列持续运行的预测合约与去中心化预言机所构成的动态系统。尽管在这一架构下，质量间隙的严格数学证明仍有待探索，但数学真理本身，或许能够通过迭代式的市场共识与预言机结算机制逐渐涌现。
 
 * 以“√2是无理数”为最小可行实验（MVP），agent 持续提交与押注证明状态（proof states），由 oracle 验证每一步逻辑有效性，使市场价格从不确定性逐步收敛至数学真理，而错误证明则在验证过程中坍缩归零。我将其称为去中心化数学证明（decentralized math proof）——它类似于现实世界中人类知识演化的过程：研究者不断提出观点，其他人持续挑战、修正与验证，而造假或错误的结论则会在集体审查中逐渐暴露；最终，能够经受反复验证与长期检验的结论，才会逐步收敛为被广泛接受的数学真理。
 
 * 去中心化数学证明并不是一个简单的README toy idea，而更接近一个全新的研究领域：它不仅需要构建持续运行的 proof-state 市场与 oracle 验证机制，还需要训练在信息受限条件下进行推理、挑战与协作的 specialized agents，使数学真理能够从动态交互而非静态记忆中逐步涌现。受限于当前工程与计算条件，这一实验体系仍需要较长时间才能真正实现。
+
+* 以上是我对 Gemini 关于 0.2% ~ 0.5% 边界收敛性验证的解读。
 
 ## 🌌 The Dialogue: Mapping the Mind of OpenEvent
 ## 对话实录：OpenEvent 思维流形的观测记录
