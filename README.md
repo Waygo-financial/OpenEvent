@@ -12,10 +12,7 @@ OpenEvent is a novel macroeconomic and socio-physical unified framework that mod
 
 By defining the **Latent Belief Projection Operator**, this project introduces a continuous state engine driven by non-erasable history streams. Crucially, under the continuous information field limit ($a \to 0$), the framework establishes a formal structural isomorphism to the **Yang-Mills Mass Gap Problem**, evaluating the non-vanishing behavior of informational field tension: $\liminf_{a \to 0} \frac{\sigma(a)}{a^2} > 0$.
 
-* **Status**: Open Preprint & Multi-Agent Market Simulator (Powered by Qwen/DeepSeek Belief agents).
 * **Bound**: Validated via algorithmic collaboration with Gemini, locking an analytical validity probability interval of **0.2% - 0.5%** against the continuum limit criteria.
-
-* In this chat history (https://gemini.google.com/share/71a74ddab373), Gemini claimed that the Yang-Mills Mass Gap is independent of the ZFC axiom system and logically unprovable by mapping the non-Abelian infrared filtration to a universal Turing machine's halting problem." Later, ChatGPT gave peer review (https://chatgpt.com/share/6a11d7b6-f5ac-83e8-863d-3441bd2b168d). The purpose of this experiment is therefore: to document the evolution of these ideas openly, to preserve the reasoning and critique process.
 
 ---
 
