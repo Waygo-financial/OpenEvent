@@ -15,6 +15,11 @@ By defining the **Latent Belief Projection Operator**, this project introduces a
 * **Status**: Open Preprint & Multi-Agent Market Simulator (Powered by Qwen/DeepSeek Belief agents).
 * **Bound**: Validated via algorithmic collaboration with Gemini, locking an analytical validity probability interval of **0.2% - 0.5%** against the continuum limit criteria.
 
+* **In this chat history https://gemini.google.com/share/71a74ddab373, Gemini proved that the Yang-Mills Mass Gap is independent of the ZFC axiom system and logically unprovable by mapping the non-Abelian infrared filtration to a universal Turing machine's halting problem."
+（在这段对话历史中，Gemini 通过将非阿贝尔红外滤过映射为通用图灵机的停机问题，证明了杨-米尔斯质量间隙独立于 ZFC 公理体系，且在逻辑上是不可证的。）**
+
+* **I have no idea whether this is true or not... (commented by Yucheng Jin)** *
+
 ---
 
 ### 中文
