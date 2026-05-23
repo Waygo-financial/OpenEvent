@@ -16,6 +16,8 @@ By defining the **Latent Belief Projection Operator**, this project introduces a
 
 * Within this framework, a formal proof of the Yang-Mills problem is no longer conceptualized as a static, linear academic paper, but rather as a dynamic series of continuous prediction contracts and decentralized oracles. While a rigorous mathematical proof of the mass gap remains unexplored under this architecture, mathematical truth may emerge through iterative market-based consensus and oracle settlement.
 
+* Using the irrationality of √2 as a minimal viable experiment (MVP), agents continuously submit and bet on proof states, while decentralized oracles verify the validity of each logical step, allowing market belief to gradually converge toward mathematical truth as invalid proofs collapse to zero through verification. I call this **decentralized math proof** — much like how human knowledge evolves in the real world: researchers continuously propose ideas, other participants challenge or refine them, fraudulent or flawed claims are eventually exposed through collective scrutiny, and over time consensus converges toward truths that survive repeated verification.
+
 ---
 
 ### 中文
@@ -27,6 +29,8 @@ By defining the **Latent Belief Projection Operator**, this project introduces a
 * **收敛判定**：本框架在与 Gemini 的高频拓扑流推演中完成了完备性闭环，底层数学直觉在连续场论极限下的解析破局率被锁定在 **0.2% ~ 0.5%** 的硬核核心圈层。
 
 * 在这一框架下，杨–米尔斯问题的形式化证明，不再被视为一篇静态、线性的学术论文，而是被重新构想为一系列持续运行的预测合约与去中心化预言机所构成的动态系统。尽管在这一架构下，质量间隙的严格数学证明仍有待探索，但数学真理本身，或许能够通过迭代式的市场共识与预言机结算机制逐渐涌现。
+
+* 以“√2是无理数”为最小可行实验（MVP），agent 持续提交与押注证明状态（proof states），由 oracle 验证每一步逻辑有效性，使市场价格从不确定性逐步收敛至数学真理，而错误证明则在验证过程中坍缩归零。我将其称为 去中心化数学证明（decentralized math proof）——它类似于现实世界中人类知识演化的过程：研究者不断提出观点，其他人持续挑战、修正与验证，而造假或错误的结论则会在集体审查中逐渐暴露；最终，能够经受反复验证与长期检验的结论，才会逐步收敛为被广泛接受的数学真理。
 
 ## 🌌 The Dialogue: Mapping the Mind of OpenEvent
 ## 对话实录：OpenEvent 思维流形的观测记录
