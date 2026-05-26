@@ -80,3 +80,6 @@ A subset of cognitive states and prompts were never recorded or have become perm
 * loss of transient cognitive states during sleep,
 * and some pure "force majeure".
 As a result, the observed sequence does not represent a complete trace of the cognitive process, but rather a partial sampling of it.
+
+The author INTENTIONALLY preserves intermediate cognitive states that would otherwise be lost due to the transient and non-linear nature of the 
+exploration process.
