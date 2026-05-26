@@ -63,3 +63,18 @@ while also exposing potentially unified obstruction-based directions toward Yang
 GitHub chat history must stop here because the recursive search phase has reached a temporary closure state: continuing raw prompting now would 
 only increase abstraction entropy. The next step is to preserve and export all prompts and generated content, transforming transient high-energy 
 cognition into a stable formal research archive.
+
+Note: 
+This file should NOT be read as a linear (or time sensative) conversation log. The chat IDs and numbering are linear only in "some" order, but the 
+actual cognition process behind them was highly non-linear. A later prompt may retroactively redefine the meaning of an earlier one.
+For example:
+Prompt A may appear to be an “early-stage question”, because A is in an "earlier" chat.
+But in reality, I might ask prompt A when I finished another prompt B in a "later" chat.
+
+In addition, the dataset itself is inherently “incomplete”.
+A subset of cognitive states and prompts were never recorded or have become permanently "inaccessible" due to "force majeure", including:
+* failure to log in ChatGPT/Gemini at the time of generation,
+* accidental deletion of chat history,
+* loss of transient cognitive states during sleep,
+* and some pure "force majeure".
+As a result, the observed sequence does not represent a complete trace of the cognitive process, but rather a partial sampling of it.
