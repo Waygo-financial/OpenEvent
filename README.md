@@ -7,7 +7,10 @@
 
 This paper introduces Emergence Dynamics, a novel mathematical paradigm designed to reformulate the foundational boundaries of computation, computational complexity, and Artificial General Intelligence (AGI). Traditional computational models, inherently constrained by discrete Turing architectures, struggle to capture the non-linear, adaptive, and continuous non-deterministic state transitions that characterize complex, systemic "intellectual emergence". To bridge this gap, I proposed a framework centered on Continuous Measurement and Non-deterministic State Flows, treating computational evolution not as a sequence of isolated symbolic steps, but as a dynamic trajectory within a continuous measure space. By mapping algorithmic states to flow topologies, this work provides a fresh geometric and measure-theoretic lens to re-examine the P versus NP problem. Finally, I widely explored the profound implications and applications of this novel paradigm on the ultimate boundaries of computation, suggesting that computational "hardness" is fundamentally an emergent property of measurement constraints. This work establishes a conceptual and mathematical bridge connecting theoretical computer science, measure theory, topology, and the dynamical systems governing complex structures.
 
+---
+
 ## Keywords
+
 Emergence Dynamics, Continuous Measurement, Non-deterministic State Flows, Geometrization of P versus NP, Computation as the Topography of Emergence, Computational Complexity
 
 ---
