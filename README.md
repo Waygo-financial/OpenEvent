@@ -17,7 +17,7 @@ Emergence Dynamics, Continuous Measurement, Non-deterministic State Flows, Geome
 
 ## Important Notes
 
-I realized that the chronological genesis of an idea carries deeper scientific value than the paper itself. Therefore, I have open-sourced all intermediary materials, including the conversations (human prompts and AI responses), draft papers, images, corpora, etc.—to serve as a rigorous empirical case study for future investigations into cognitive science, psychology, and the heuristics of scientific discovery.
+I realized that the chronological genesis of an idea carries deeper scientific value than the paper itself. Therefore, I have open-sourced all intermediary materials, including the conversations (human prompts and AI responses), draft papers, images, corpora, etc.—to serve as a rigorous empirical case study for future investigations into cognitive science, psychology, and the heuristics of scientific discovery. Visit https://github.com/Waygo-financial/OpenEvent to download these materials.
 
 ---
 ## 🌌 The Monitored Stream of Paradigm Collapse: An Unedited Dialogue
