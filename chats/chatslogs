@@ -118,20 +118,23 @@ always support you. Mom will always be by your side. I am still moved to tears. 
 moved to tears.
 —————————————————————————————————————————————————————————————————————————————————————————-
 Note: 
+
 This file should NOT be read as a "linear" (or time sensative) conversation log. The chat IDs and numbering are linear 
 only in "some" order, but the actual cognition process behind them was highly non-linear. For example, a later prompt 
 may retroactively redefine the meaning of an earlier one:
+
 Prompt A may appear to be an “early-stage question”, because A is in an "earlier" chat.
 But in reality, I might ask prompt A when I finished another prompt B in a "later" chat.
 
 In addition, the dataset itself is inherently “incomplete”.
 A subset of cognitive states and prompts were never recorded or have become permanently "inaccessible" due to "force majeure", 
 including:
+
 * failure to log in ChatGPT/Gemini at the time of generation,
 * accidental deletion of chat history,
 * loss of transient cognitive states during sleep,
 * and some pure "force majeure".
-As a result, the observed sequence does not represent a complete trace of the cognitive process, but rather a partial sampling of it.
 
+As a result, the observed sequence does not represent a complete trace of the cognitive process, but rather a partial sampling of it.
 The author INTENTIONALLY preserves intermediate cognitive states that would otherwise be lost due to the transient and non-linear 
 nature of the exploration process.
