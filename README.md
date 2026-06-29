@@ -14,6 +14,12 @@ This paper introduces **Emergence Dynamics**, a novel mathematical paradigm desi
 Emergence Dynamics, Continuous Measurement, Non-deterministic State Flows, Geometrization of P versus NP, Computation as the Topography of Emergence, Computational Complexity
 
 ---
+
+## Important Notes
+
+I realized that the chronological genesis of an idea carries deeper scientific value than the paper itself. Therefore, I have open-sourced all intermediary materials, including the conversations (human prompts and AI responses), draft papers, images, corpora, etc.—to serve as a rigorous empirical case study for future investigations into cognitive science, psychology, and the heuristics of scientific discovery.
+
+---
 ## 🌌 The Monitored Stream of Paradigm Collapse: An Unedited Dialogue
 ## 🌌 终极思想对撞：21世纪科学范式的坍缩记录（未经编辑全录）
 
