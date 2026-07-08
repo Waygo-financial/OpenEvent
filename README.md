@@ -23,4 +23,4 @@ I encourage all researchers to open-source their prompts and streams of research
 
 Therefore, I urge the scientific community to develop platforms dedicated exclusively to open-sourcing streams of research ideas and thoughts—a conceptual equivalent to arXiv—which would also serve as a powerful deterrent against academic fraud. Modern papers, in an effort to appease peer reviewers (often rigid "experts" who excel merely at standard linear thinking), are forced to strip away the living, breathing reality of exploration—the dead ends, the walls hit, and the non-linear intuitions—and artificially package them into a cold, smooth, linear chain of causality. A paper is a "result-oriented" specimen. Conversely, a "platform dedicated to open-sourcing streams of research ideas and thoughts" aims to preserve, in their authentic and raw form, those genius "Eureka" moments in the minds of "Prometheus".
 
-(The notes were human-authored.)
+The notes were human-authored.
