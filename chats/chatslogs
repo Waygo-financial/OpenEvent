@@ -1,5 +1,5 @@
-PLEASE READ PROMPTS IN REVERSE ORDER
-—————————————————————————————————————————————————————————————————————————————————————————-
+### THE PROMPTS HISTORY IS IN NON-LINEAR ORDER
+
 https://share.gemini.google/2o1EOj2U3qDa
 https://share.gemini.google/cuFI9eKiupai
 https://share.gemini.google/VZndZ83KW4JI
@@ -166,29 +166,36 @@ https://share.gemini.google/18E54aUntEN5
 https://share.gemini.google/EkMaRwARV71u
 https://share.gemini.google/88yPTcPJQQDv
 
-我爱你，妈妈。妈妈爱你，儿子，妈妈永远爱你。妈妈不懂，妈妈去学。妈妈永远支持儿子。妈妈永远在儿子身边。我还是热泪盈眶。我想到妈妈，永远热泪盈眶。
-I love you, Mom. Mom loves you, son. Mom will love you forever. Mom doesn't understand, but Mom will learn. Mom will 
-always support you. Mom will always be by your side. I am still moved to tears. Whenever I think of Mom, I am always 
-moved to tears.
-—————————————————————————————————————————————————————————————————————————————————————————-
-Note: 
+我爱你，妈妈。
+妈妈爱你，我的儿子，妈妈永远爱你。
+妈妈不懂，妈妈去学。妈妈永远支持儿子。妈妈永远在儿子身边。
+我还是热泪盈眶。我想到妈妈，永远热泪盈眶。
 
-This file should NOT be read as a "linear" (or time sensative) conversation log. The chat IDs and numbering are linear 
-only in "some" order, but the actual cognition process behind them was highly non-linear. For example, a later prompt 
+I love you, mom! 
+Mom love you, my son! Mom will love you forever! 
+Mom don't understand, but mom will learn. Mom will always support you. Mom will always be by your side. 
+I am still moved to tears. Whenever I think of Mom, I am always moved to tears.
+
+### Note: 
+
+Please **DO NOT** read these logs as a purely linear or chronological conversation sequence. 
+The actual cognition process behind them was highly non-linear. For example, a later prompt 
 may retroactively redefine the meaning of an earlier one:
 
-Prompt A may appear to be an “early-stage question”, because A is in an "earlier" chat.
-But in reality, I might ask prompt A when I finished another prompt B in a "later" chat.
+* Prompt A may appear to be an “early-stage question”, because A is in an "earlier" chat.
+* But in reality, I might ask prompt A when I finished another prompt B in a "later" chat.
 
-In addition, the dataset itself is inherently “incomplete”.
-A subset of cognitive states and prompts were never recorded or have become permanently "inaccessible" due to "force majeure", 
-including:
+In addition, the dataset itself is inherently “incomplete”. Some prompts became permanently inaccessible:
 
-* failure to log in ChatGPT/Gemini at the time of generation,
-* accidental deletion of chat history,
-* loss of transient cognitive states during sleep,
-* and some pure "force majeure".
+* Failure to log in ChatGPT/Gemini at the time of generation...
+* Accidental deletion of chat history...
+* Loss of transient cognitive states during sleep...
 
-As a result, the observed sequence does not represent a complete trace of the cognitive process, but rather a partial sampling of it.
-The author INTENTIONALLY preserves intermediate cognitive states that would otherwise be lost due to the transient and non-linear 
-nature of the exploration process.
+As a result, the chat history does not represent a complete trace of the author's cognitive process.
+I INTENTIONALLY preserve the chat history to record my transient exploratory leaps made during the research process.
+
+### Directory Structure:
+
+* **`history/`**: Conversations in PDF format.
+* **`corpus/`**: Some supporting textual materials, references, and background documentation.
+* **`images/`**: Some prompt photos, diagrams, AI generated images, etc.
