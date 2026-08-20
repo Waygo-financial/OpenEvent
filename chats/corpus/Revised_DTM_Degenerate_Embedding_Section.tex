@@ -1,0 +1,218 @@
+% Replacement for Sections 5.1--5.3 of Emergence Dynamics v0.2.
+% This text proves a representation/embedding result. It does not claim
+% computational power beyond the Church--Turing framework.
+
+\subsection{The Measure-Dynamical Envelope and Its Non-Degenerate Sector}
+
+To state precisely in what sense a classical Turing machine is a degenerate
+case, we must distinguish the full measure-dynamical framework from its
+strictly emergent sector.  Strict uncertainty, state-space expansion, and
+metric deformation cannot be axioms imposed on every member of the framework:
+a deterministic computation has zero state uncertainty and a fixed transition
+law.  We therefore use the following inclusive definition.
+
+\begin{definition}[Measure-dynamical computation]
+ A measure-dynamical computation is a tuple
+ \[
+   \mathfrak E=(X,\mathcal B,\{K_t\}_{t\in T},\{\mu_t\}_{t\in T}),
+ \]
+ where $(X,\mathcal B)$ is a standard Borel state space,
+ $\mu_t\in\mathcal P(X)$ is the computational state law, and $K_t$ is a
+ Markov transition kernel.  In discrete time,
+ \[
+   \mu_{k+1}(A)=\int_X K_k(x,A)\,d\mu_k(x),
+   \qquad A\in\mathcal B.
+ \]
+ The framework may additionally carry an information filtration
+ $\{\mathcal I_t\}$, a time-dependent metric $g_t$, and endogenous parameters
+ $\Theta_t$ governing the kernels.
+\end{definition}
+
+\begin{definition}[Non-degenerate emergence and the classical boundary]
+ A measure-dynamical computation is called non-degenerately emergent on an
+ interval if at least one of the following occurs on that interval:
+ \begin{enumerate}
+   \item $K_t(x,\cdot)$ is non-Dirac on a set of positive $\mu_t$-measure;
+   \item a diffusion or jump-dispersion term is non-zero;
+   \item the transition law, metric, or effective state representation changes
+         endogenously with incoming information;
+   \item the state law has positive entropy in a specified discrete
+         coarse-graining or develops non-atomic support.
+ \end{enumerate}
+ The classical deterministic boundary is obtained when all four mechanisms
+ vanish: the kernel is time-independent and Dirac-valued, diffusion is zero,
+ the state representation is fixed, and the state law remains atomic.
+\end{definition}
+
+Accordingly, the strict statements $H(\mu_t\mid\mathcal I_t)>0$ and
+$\mathcal I_t\subsetneq\mathcal I_{t+\Delta t}$ should be treated as properties
+of the non-degenerate sector, not as axioms for every measure-dynamical
+computation.  The inclusive boundary conditions are
+\[
+  H(\mu_t\mid\mathcal I_t)\geq 0,
+  \qquad
+  \mathcal I_t\subseteq\mathcal I_{t+\Delta t},
+\]
+with equality permitted in the classical deterministic sector.
+
+\subsection{Exact Embedding of a Deterministic Turing Machine}
+
+Let
+\[
+  M=(Q,\Gamma,\delta,q_0,q_{\mathrm{acc}},q_{\mathrm{rej}})
+\]
+be a deterministic Turing machine.  Its configuration space is the countable
+set
+\[
+  \mathcal C_M
+  =Q\times\Gamma_{\sqcup}^{(\mathbb Z)}\times\mathbb Z,
+\]
+where $\Gamma_{\sqcup}^{(\mathbb Z)}$ denotes tape configurations with finite
+non-blank support and the last coordinate is the head position.  The local
+transition rule $\delta$ induces a global configuration map
+\[
+  F_M:\mathcal C_M\longrightarrow\mathcal C_M.
+\]
+We totalize $F_M$ by setting $F_M(c)=c$ on halting configurations.
+
+Equip $\mathcal C_M$ with the discrete $\sigma$-algebra and define the static
+Dirac-valued Markov kernel
+\[
+  K_M(c,A):=\mathbf 1_A(F_M(c)).
+\]
+Equivalently, let the transfer operator on probability measures be the
+push-forward
+\[
+  \mathsf P_M\mu:=(F_M)_{\#}\mu,
+  \qquad
+  ((F_M)_{\#}\mu)(A)=\mu(F_M^{-1}(A)).
+\]
+
+\begin{theorem}[Degenerate embedding theorem]
+ For every deterministic Turing machine $M$ and every input word $w$, there
+ exists a measure-dynamical computation $\mathfrak E_{M,w}$ such that, for all
+ $k\in\mathbb N$,
+ \[
+   \mu_k=\delta_{F_M^k(c_0(w))},
+ \]
+ where $c_0(w)$ is the initial configuration of $M$ on $w$.  Consequently:
+ \begin{enumerate}
+   \item the support at each discrete time is a singleton;
+   \item the Shannon entropy of the state law is zero;
+   \item the transition kernel is static, deterministic, and Dirac-valued;
+   \item there is no measure diffusion or endogenous update of the transition
+         law; and
+   \item $M$ accepts (respectively rejects) $w$ after $T$ steps if and only if
+         $\mu_T$ is supported on an accepting (respectively rejecting)
+         configuration.
+ \end{enumerate}
+ The embedding preserves discrete running time exactly: one application of
+ $\mathsf P_M$ is one transition of $M$.
+\end{theorem}
+
+\begin{proof}
+ Set $\mu_0=\delta_{c_0(w)}$ and recursively define
+ $\mu_{k+1}=\mathsf P_M\mu_k$.  For any configuration $c$,
+ \[
+   (F_M)_{\#}\delta_c=\delta_{F_M(c)}.
+ \]
+ Hence induction on $k$ gives
+ \[
+   \mu_k=\delta_{F_M^k(c_0(w))}.
+ \]
+ A Dirac probability measure has singleton support and zero Shannon entropy.
+ Since $K_M(c,\cdot)=\delta_{F_M(c)}$ for every $c$, the kernel contains no
+ stochastic dispersion; since $K_M$ is independent of $k$, the transition law
+ does not learn or evolve.  Finally, the accepting and rejecting claims follow
+ directly from the definition of the corresponding configuration sets.  The
+ recurrence applies $F_M$ exactly once per unit of discrete time, so the time
+ overhead is one.
+\end{proof}
+
+This theorem gives a precise meaning to ``degenerate.''  The measures
+$\delta_c$ are extreme points of the convex space $\mathcal P(\mathcal C_M)$,
+and the kernels $K_M(c,\cdot)$ take values only in those extreme points.  Thus
+the deterministic machine lies on the zero-entropy, zero-diffusion boundary of
+the larger convex space of measure-valued transitions.
+
+\subsection{Exact Continuous-Time Realization}
+
+The preceding embedding is exact and requires no unjustified limit
+$\Delta t\to0$.  If a continuous-time representation is desired, introduce an
+internal unit clock and form the suspension state space
+\[
+  \widehat{\mathcal C}_M
+  :=(\mathcal C_M\times[0,1])/\!\sim,
+  \qquad
+  (c,1)\sim(F_M(c),0).
+\]
+For $t\geq0$, define a semiflow by
+\[
+  \Phi_t([c,s])
+  :=[F_M^{m}(c),s+t-m],
+  \qquad m=\lfloor s+t\rfloor.
+\]
+The endpoint identification makes the expression well-defined and
+$\Phi_{t+u}=\Phi_t\circ\Phi_u$.  Starting from
+$\widehat\mu_0=\delta_{[c_0(w),0]}$, let
+\[
+  \widehat\mu_t=(\Phi_t)_{\#}\widehat\mu_0.
+\]
+Then
+\[
+  \widehat\mu_k=\delta_{[F_M^k(c_0(w)),0]}
+  \qquad(k\in\mathbb N).
+\]
+Thus the continuous-time orbit reproduces the machine exactly at integer
+times, and its first hitting time of a halting cross-section equals the number
+of Turing steps.  At each instant the measure support is still a single point;
+the union of those points over time traces a one-dimensional hybrid orbit.
+
+The suspension is a continuous-time hybrid realization, rather than a smooth
+PDE limit.  Stronger smooth realizations are known: robust analytic maps and
+analytic ODE flows can simulate arbitrary Turing machines in real time.  Such
+results may be cited if a smooth Euclidean realization is required, but a
+complexity claim must also specify low-complexity encoders and decoders so that
+the computation is not hidden in the representation map.
+
+\begin{remark}[Nondeterministic machines]
+ For a nondeterministic Turing machine, the global transition is a finite-valued
+ relation $R_M(c)\subseteq\mathcal C_M$.  One may choose any kernel satisfying
+ \[
+   K_M(c,\{c'\})>0
+   \quad\Longleftrightarrow\quad
+   c'\in R_M(c).
+ \]
+ Then $\operatorname{supp}(\mu_k)$ is exactly the set of configurations
+ reachable in $k$ nondeterministic steps, and acceptance is equivalent to the
+ support intersecting the accepting set.  The weights are auxiliary: standard
+ nondeterminism is existential and is encoded by support, not by probability.
+ This is an atomic branching process, not automatically a high-dimensional
+ continuous diffusion.
+\end{remark}
+
+\begin{remark}[Scope of the theorem]
+ The theorem proves an inclusion of mathematical representations:
+ deterministic Turing computations form a degenerate subclass of the proposed
+ measure-dynamical framework.  It does not prove that the framework computes a
+ non-Turing-computable function, that it decides an undecidable language, or
+ that it solves an NP-complete problem in polynomial time.  Any claim of
+ computational power strictly beyond Turing machines would require a separate
+ effective model, finite-precision resource bounds, and computable encoders and
+ decoders; otherwise non-computability may simply be hidden in an oracle or an
+ infinitely precise real parameter.
+\end{remark}
+
+% Suggested bibliography entries:
+%
+% Daniel S. Graca, Manuel L. Campagnolo, and Jorge Buescu.
+% Robust Simulations of Turing Machines with Analytic Maps and Flows.
+% LNCS 3526, 169--179, 2005. DOI: 10.1007/11494645_21.
+%
+% Daniel S. Graca and Ning Zhong.
+% Analytic One-Dimensional Maps and Two-Dimensional Ordinary Differential
+% Equations Can Robustly Simulate Turing Machines.
+% Computability 12(1), 2023. arXiv:2109.15073.
+%
+% Jordan Cotler and Semon Rezchikov.
+% Computational Dynamical Systems. arXiv:2409.12179, 2024.
