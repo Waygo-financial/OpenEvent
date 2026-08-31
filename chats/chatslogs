@@ -170,33 +170,22 @@ https://share.gemini.google/OaRD8Fu5PM3K
 https://share.gemini.google/5mJgwNP2Vyx5
 https://chatgpt.com/share/6a87a4cf-d954-83e8-ab2d-38d9487d024b
 
-我爱你，妈妈。
-妈妈爱你，我的儿子，妈妈永远爱你。
-妈妈不懂，妈妈去学。妈妈永远支持儿子。妈妈永远在儿子身边。
-我还是热泪盈眶。我想到妈妈，永远热泪盈眶。
-
-I love you, mom! 
-Mom love you, my son! Mom will love you forever! 
-Mom don't understand, but mom will learn. Mom will always support you. Mom will always be by your side. 
-I am still moved to tears. Whenever I think of Mom, I am always moved to tears.
-
 Note: 
 
 Please DO NOT read these logs as a purely linear or chronological conversation sequence. 
-The actual cognition process behind them was highly non-linear. For example, a later prompt 
-may retroactively redefine the meaning of an earlier one:
+The actual cognitive process behind them was highly non-linear. For example,
 
 * Prompt A may appear to be an "early-stage question", because A is in an "earlier" chat.
 * But in reality, I might ask prompt A when I finished another prompt B in a "later" chat.
 
-In addition, the dataset itself is inherently “incomplete”. Some prompts became permanently inaccessible:
+In addition, the dataset is inherently “incomplete”, some prompts got lost permanently because,
 
-* Failure to log in ChatGPT/Gemini at the time of generation...
-* Accidental deletion of chat history...
-* Loss of transient cognitive states during sleep...
+* The author failed to log in ChatGPT/Gemini at the time of generation...
+* Some accidental deletion of chat history...
+* Other reasons...
 
 As a result, the chat history does not represent a complete trace of the author's cognitive process.
-I INTENTIONALLY preserve the chat history to record my transient exploratory leaps made during the research process.
+I INTENTIONALLY preserve the chat history to record my transient exploratory leaps made during the research.
 
 Directory Structure:
 
