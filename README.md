@@ -13,7 +13,7 @@ The paradigm is first applied to financial markets-I examine the **Boundaries of
 
 ## Keywords
 
-Emergence Dynamics, Continuous Measurement, Nondeterministic State Flows, Computation as Emergence, Computational Complexity, Geometrization of $P$ versus $NP$, 3-SAT, Embedding of Turing Machines, Event Contract, Trustless Insurance, Perpetual Derivatives, AGI
+Emergence Dynamics, Continuous Measurement, Nondeterministic State Flows, Computation as Emergence, Computational Complexity, Geometrization of P versus NP, 3-SAT, Embedding of Turing Machines, Event Contract, Trustless Insurance, Perpetual Derivatives, AGI
 
 ---
 
